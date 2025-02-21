@@ -13,3 +13,5 @@ Die Aufgabe ist, ein Projekt in Unity zu erstellen, bei dem man mehrere Windmüh
 - Die Windmühlen drehen sich erst, wenn der Button gedrückt wird, und nicht davor schon
 - Keine dynamisches spawnen der Windmühlen
 
+# Klassendiagramm: 
+![image](https://github.com/user-attachments/assets/4999fc2f-aff2-41c7-a3fc-27a9f75d557c)
