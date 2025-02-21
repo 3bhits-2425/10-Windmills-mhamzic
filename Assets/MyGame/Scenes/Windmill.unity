@@ -123,34 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &50186263 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6665113222096435196, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
-  m_PrefabInstance: {fileID: 75350549}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &50186265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 50186263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32e291dbc558567418846eb104e9b84a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lamp: {fileID: 815706062}
-  slider: {fileID: 1259142940}
-  rgb: {fileID: 1455504337}
-  windmills:
-  - {fileID: 1579448353}
-  - {fileID: 199834136}
-  - {fileID: 50186263}
-  buttons:
-  - {fileID: 1051588101}
-  - {fileID: 481859845}
-  - {fileID: 78838230}
 --- !u!1001 &75350549
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -216,9 +188,37 @@ PrefabInstance:
       value: Press
       objectReference: {fileID: 0}
     - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
+      propertyPath: rgb
+      value: 
+      objectReference: {fileID: 1455504337}
+    - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
+      propertyPath: lamp
+      value: 
+      objectReference: {fileID: 815706062}
+    - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
+      propertyPath: lampSlider
+      value: 
+      objectReference: {fileID: 1259142940}
+    - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
       propertyPath: colorTarget
       value: 
       objectReference: {fileID: 1019940808}
+    - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
+      propertyPath: buttons.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
+      propertyPath: buttons.Array.data[0]
+      value: 
+      objectReference: {fileID: 1051588101}
+    - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
+      propertyPath: buttons.Array.data[1]
+      value: 
+      objectReference: {fileID: 481859845}
+    - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
+      propertyPath: buttons.Array.data[2]
+      value: 
+      objectReference: {fileID: 78838230}
     - target: {fileID: 5839970139962796021, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -234,10 +234,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6665113222096435196, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 50186265}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
 --- !u!114 &78838230 stripped
 MonoBehaviour:
@@ -326,9 +323,37 @@ PrefabInstance:
       value: Press
       objectReference: {fileID: 0}
     - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
+      propertyPath: rgb
+      value: 
+      objectReference: {fileID: 291675211}
+    - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
+      propertyPath: lamp
+      value: 
+      objectReference: {fileID: 633216593}
+    - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
+      propertyPath: lampSlider
+      value: 
+      objectReference: {fileID: 732883677}
+    - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
       propertyPath: colorTarget
       value: 
       objectReference: {fileID: 1818745650}
+    - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
+      propertyPath: buttons.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
+      propertyPath: buttons.Array.data[0]
+      value: 
+      objectReference: {fileID: 1051588101}
+    - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
+      propertyPath: buttons.Array.data[1]
+      value: 
+      objectReference: {fileID: 481859845}
+    - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
+      propertyPath: buttons.Array.data[2]
+      value: 
+      objectReference: {fileID: 78838230}
     - target: {fileID: 5839970139962796021, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -344,39 +369,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6665113222096435196, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 199834138}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
---- !u!1 &199834136 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6665113222096435196, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
-  m_PrefabInstance: {fileID: 107404971}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &199834138
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 199834136}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32e291dbc558567418846eb104e9b84a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lamp: {fileID: 633216593}
-  slider: {fileID: 732883677}
-  rgb: {fileID: 291675211}
-  windmills:
-  - {fileID: 1579448353}
-  - {fileID: 199834136}
-  - {fileID: 50186263}
-  buttons:
-  - {fileID: 1051588101}
-  - {fileID: 481859845}
-  - {fileID: 78838230}
 --- !u!1 &207551622
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,7 +451,7 @@ GameObject:
   - component: {fileID: 291675212}
   - component: {fileID: 291675211}
   m_Layer: 0
-  m_Name: Text (TMP) (1)
+  m_Name: windmill2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -628,7 +622,7 @@ GameObject:
   - component: {fileID: 461647460}
   - component: {fileID: 461647459}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: windmill1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1080,7 +1074,7 @@ GameObject:
   - component: {fileID: 1455504338}
   - component: {fileID: 1455504337}
   m_Layer: 0
-  m_Name: Text (TMP) (2)
+  m_Name: windmill3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1239,34 +1233,6 @@ RectTransform:
   m_AnchoredPosition: {x: 11.32, y: 7.67}
   m_SizeDelta: {x: 5.9273, y: 3.3048}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1579448353 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6665113222096435196, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
-  m_PrefabInstance: {fileID: 685490697218605895}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1579448355
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1579448353}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32e291dbc558567418846eb104e9b84a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lamp: {fileID: 2043787823}
-  slider: {fileID: 100074321}
-  rgb: {fileID: 461647459}
-  windmills:
-  - {fileID: 1579448353}
-  - {fileID: 199834136}
-  - {fileID: 50186263}
-  buttons:
-  - {fileID: 1051588101}
-  - {fileID: 481859845}
-  - {fileID: 78838230}
 --- !u!1 &1818745650 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2944201343118629146, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
@@ -1352,9 +1318,37 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 963194227}
     - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
+      propertyPath: rgb
+      value: 
+      objectReference: {fileID: 461647459}
+    - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
+      propertyPath: lamp
+      value: 
+      objectReference: {fileID: 2043787823}
+    - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
+      propertyPath: lampSlider
+      value: 
+      objectReference: {fileID: 100074321}
+    - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
       propertyPath: colorTarget
       value: 
       objectReference: {fileID: 1221303154}
+    - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
+      propertyPath: buttons.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
+      propertyPath: buttons.Array.data[0]
+      value: 
+      objectReference: {fileID: 1051588101}
+    - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
+      propertyPath: buttons.Array.data[1]
+      value: 
+      objectReference: {fileID: 481859845}
+    - target: {fileID: 5676177126470944958, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
+      propertyPath: buttons.Array.data[2]
+      value: 
+      objectReference: {fileID: 78838230}
     - target: {fileID: 5839970139962796021, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1374,10 +1368,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6665113222096435196, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1579448355}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e45386665ff5e24eb0505df5e022afe, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
